@@ -1,6 +1,6 @@
 # Members Service
 
-API simples para cadastro e consulta de membros (pessoas com nome e cargo). Atua como **fonte de verdade externa** para o `portfolio-service`.
+API simples para cadastro e consulta de membros (pessoas com nome e cargo). Atua como **fonte** para o `portfolio-service`.
 
 ## Stack
 
@@ -21,7 +21,7 @@ A documentação está em http://localhost:8081/swagger-ui.html
 | GET | `/api/membros` | Lista todos os membros |
 | GET | `/api/membros/{id}` | Busca por id |
 
-### Cargos suportados
+### Cargos
 
 - `FUNCIONARIO`
 - `GERENTE`
